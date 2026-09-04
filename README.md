@@ -52,7 +52,7 @@ task date and time [DD/MM/YYYY, HH:MM]:
 tasks/new-task>
 ```
 
-We write: `"08/09/2026., 10:00"`. UI responds:
+We write: `"08/09/2026, 10:00"`. UI responds:
 
 ```
 task description:
@@ -63,7 +63,7 @@ tasks/new-task>
 We write `"go to dentist"`. UI responds:
 
 ```
-08/09/2026., 10:00 - go to dentist
+08/09/2026, 10:00 - go to dentist
 
 Task created. Choose a command:
 
