@@ -10,23 +10,7 @@ Considering the current context within an application, symbolic instructions may
 
 Because symbolic input/output preferably carry only necessary communication information, when working with an application, there are less distractions in the form of notifications, sounds, images, videos, etc. Hopefully, only information related to work of interest remains.
 
-This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we also may acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of common instructions exchanged between user and computer.
-
-## Unified Frontend
-
-Modern programming taught us about the importance of separating frontend from backend in building computer applications. While backend internals are a matter of completely another material, we question how much the frontend creation can be automated. Frontend communicates with backend using application programming interface (API), so the API is one of the first places to look at when analyzing the frontend.
-
-Frontend GUIs may grow very complex, but how much machinery is actually necessary to interact with useful software? Applications like CAD, photo editing, video editing, music arrangement, games, diagrams, scientific visualization, some spreadsheets, etc., greatly benefit from spatial representation on the screen, so we may expect that they already use an effective communication channel. On the other hand, for applications like calendar, contacts, mail, notes, tasks, configuration, databases, etc., there exists an argument that a visual canvas is too broad abstraction. Their communication channel resembles conceptual symbolic interaction, and may be a subject of automating its appearance to users.
-
-With applications whose primary communication channel resembles conceptual symbolic interaction, we may introduce a simple but universal self-describing API that would enable creation of a unified frontend client. Such a frontend client wouldn't need to be aware of the backend specifics, yet it would be able to meaningfully interact with any standardized backend. The proposed frontend client would expose its functionality using the following repetitive pattern:
-
-```
-Context -> Discover -> Choose -> Execute -> New Context
-```
-
-The pattern may embrace a surprisingly capable class of the above mentioned applications, providing the unified frontend client whose functionality would depend merely on standardized metadata passed within API calls. Since the frontend could be aware of the current context sensitive set of instructions, it could successfully mediate interaction between end user and the whole application. The application's API instructions can correspond directly to user-level instructions, making the API itself the primary interaction mechanism.
-
-All of this leads us to a definition of potentially simplistic unified frontend, which may, in turn, unify access to the entire class of applications. For such applications, programmers could build an application backend without developing an application-specific frontend. Consequently, all those applications would share a common command line discoverable input/output interface, letting the user to further learn about application specific instructions.
+This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we may also acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of common instructions exchanged between user and computer.
 
 ## Example Session
 
