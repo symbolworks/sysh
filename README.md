@@ -24,6 +24,8 @@ Welcome. Choose an application command:
     notes
 
     done
+
+>
 ```
 
 We write `tasks`. UI responds:
@@ -38,18 +40,24 @@ Tasks. Choose a command:
     move-task
 
     done
+
+>
 ```
 
 We write `new-task`. UI responds:
 
 ```
 task date and time:
+
+>
 ```
 
 We write: `"08/09/2026., 10:00am"`. UI responds:
 
 ```
 task description:
+
+>
 ```
 
 We write `"go to dentist"`. UI responds:
@@ -62,6 +70,8 @@ Task created. Choose a command:
     next-task
 
     done
+
+>
 ```
 
 We write: `done`. We're back to the tasks menu:
@@ -76,6 +86,8 @@ Tasks. Choose a command:
     move-task
 
     done
+
+>
 ```
 
 We write: `done`. We're back to the applications menu:
@@ -88,6 +100,8 @@ Welcome. Choose an application command:
     notes
 
     done
+
+>
 ```
 
 We write `done`. The session ends.
