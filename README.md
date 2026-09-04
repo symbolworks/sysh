@@ -41,7 +41,7 @@ Tasks. Choose a command:
 
     done
 
->
+tasks>
 ```
 
 We write `new-task`. UI responds:
@@ -49,7 +49,7 @@ We write `new-task`. UI responds:
 ```
 task date and time:
 
->
+tasks/new-task>
 ```
 
 We write: `"08/09/2026., 10:00am"`. UI responds:
@@ -57,7 +57,7 @@ We write: `"08/09/2026., 10:00am"`. UI responds:
 ```
 task description:
 
->
+tasks/new-task>
 ```
 
 We write `"go to dentist"`. UI responds:
@@ -71,7 +71,7 @@ Task created. Choose a command:
 
     done
 
->
+tasks/new-task>
 ```
 
 We write: `done`. We're back to the tasks menu:
@@ -87,7 +87,7 @@ Tasks. Choose a command:
 
     done
 
->
+tasks>
 ```
 
 We write: `done`. We're back to the applications menu:
