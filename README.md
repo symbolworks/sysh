@@ -14,7 +14,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-When the UI starts, we see:
+When the session starts, user interface (UI) shows:
 
 ```
 Welcome. Choose an application command:
