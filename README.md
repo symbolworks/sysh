@@ -10,7 +10,7 @@ Considering the current context within an application, symbolic instructions may
 
 Because symbolic input/output preferably carry only necessary communication information, when working with an application, there are less distractions in the form of notifications, sounds, images, videos, etc. Hopefully, only information related to work of interest remains.
 
-This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we may also acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of common instructions exchanged between user and computer.
+This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we may also acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of simple instructions exchanged between user and computer.
 
 ## Example Session
 
@@ -47,12 +47,12 @@ tasks>
 We write `new-task`. UI responds:
 
 ```
-task date and time:
+task date and time [DD/MM/YYYY, HH:MM]:
 
 tasks/new-task>
 ```
 
-We write: `"08/09/2026., 10:00am"`. UI responds:
+We write: `"08/09/2026., 10:00"`. UI responds:
 
 ```
 task description:
@@ -63,7 +63,7 @@ tasks/new-task>
 We write `"go to dentist"`. UI responds:
 
 ```
-08/09/2026., 10:00am - go to dentist
+08/09/2026., 10:00 - go to dentist
 
 Task created. Choose a command:
 
