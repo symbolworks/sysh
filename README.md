@@ -1,6 +1,6 @@
 # Sysh
 
-**A symbolic shell for interactively discovering and operating application backends**
+**A symbolic shell for simplifying communication between users and programs**
 
 ## Motivation
 
@@ -14,7 +14,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of `tasks`, `notes`, or their commands; these are supplied by the application according to the current context.
+We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of `tasks`, `notes`, or their commands; these are supplied by the application according to the current context during runtime.
 
 When the example session starts, user interface (UI) shows:
 
