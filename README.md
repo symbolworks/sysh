@@ -114,4 +114,4 @@ Applications. Choose a command:
 
 We enter `done`. The session ends.
 
-The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires.
+The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend. Its user interface is by no means perfect, but its functionality has other strengths like simplicity and portability.
