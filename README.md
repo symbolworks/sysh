@@ -50,7 +50,6 @@ We enter `new-task`. UI responds:
 New task. Date and time:
 
    <string [DD/MM/YYYY, HH:MM]>
-   
    cancel
 
 tasks/new-task>
@@ -62,7 +61,6 @@ We enter `"08/09/2026, 10:00"`. UI responds:
 New task. Description:
 
     <string>
-    
     cancel
 
 tasks/new-task>
@@ -71,11 +69,22 @@ tasks/new-task>
 We enter `"Go to dentist"`. UI responds:
 
 ```
-Task created.
+New task. Review:
     
-    date and time: "08/09/2026, 10:00"
-    description:   "Go to dentist"
+    Date and time: "08/09/2026, 10:00"
+    Description:   "Go to dentist"
 
+Choose a command:
+
+    accept
+    cancel
+
+tasks>
+```
+
+We enter `accept`. We're back to the applications menu:
+
+```
 Tasks. Choose a command:
 
     task-list
