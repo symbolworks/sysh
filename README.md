@@ -14,7 +14,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of `tasks`, `notes`, or their commands; these are supplied by the application according to the current context during runtime.
+We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of any application commands. Instead, during runtime, the current application context provides a set of valid commands, together with their syntax. This way, the client remains simple while application takes care of specific functionality at given moment.
 
 When the example session starts, user interface (UI) shows:
 
