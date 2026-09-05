@@ -50,7 +50,7 @@ We enter `new-task`. UI responds:
 New task. Date and time:
 
    <string [DD/MM/YYYY, HH:MM]>
-   cancel
+   reject
 
 tasks/new-task>
 ```
@@ -61,7 +61,7 @@ We enter `"08/09/2026, 10:00"`. UI responds:
 New task. Description:
 
     <string>
-    cancel
+    reject
 
 tasks/new-task>
 ```
@@ -77,7 +77,7 @@ New task. Review:
 Choose a command:
 
     accept
-    cancel
+    reject
 
 tasks>
 ```
