@@ -116,6 +116,6 @@ Applications. Choose a command:
 
 We enter `done`. The session ends.
 
-The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend.
+The example command set is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend.
 
 Sysh deliberately trades GUI expressiveness for simplicity. The purpose of this project is to explore how far that trade-off can be taken. GUIs remain the better interface for many applications, but the question is how simple an interface can become while still supporting an interesting class of applications.
