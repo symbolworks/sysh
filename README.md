@@ -47,7 +47,7 @@ tasks>
 We enter `new-task`. UI responds:
 
 ```
-Task date and time:
+New task. Date and time:
 
    <string [DD/MM/YYYY, HH:MM]>
    
@@ -59,7 +59,7 @@ tasks/new-task>
 We enter `"08/09/2026, 10:00"`. UI responds:
 
 ```
-Task description:
+New task. Description:
 
     <string>
     
