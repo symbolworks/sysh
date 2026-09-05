@@ -17,7 +17,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 When the session starts, user interface (UI) shows:
 
 ```
-Welcome. Choose an application command:
+Applications. Choose a command:
 
     tasks
     notes
@@ -101,7 +101,7 @@ tasks>
 We enter `done`. We're back to the applications menu:
 
 ```
-Welcome. Choose an application command:
+Applications. Choose a command:
 
     tasks
     notes
