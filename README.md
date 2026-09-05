@@ -10,11 +10,11 @@ Considering the current context within an application, symbolic instructions may
 
 Because symbolic input/output could potentially carry only necessary communication information, when working with an application, there may be less distractions in a form of notifications, sounds, images, videos, etc. Hopefully, only information related to work of interest remains.
 
-This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we may also acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of simple instructions in given moment, exchanged between user and computer.
+This reduced user interface platform is not a replacement to usual GUIs because there are still a lot of applications that work better with graphic environments. But we may also acknowledge that there exists a considerable range of applications that would benefit from a short and concise set of simple instructions at given moment, exchanged between user and computer.
 
 ## Example Session
 
-We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of any application commands. Instead, during runtime, the current application context provides a set of valid commands, together with their syntax. This way, the client remains simple while application takes care of specific functionality at given moment.
+We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of any application commands. Instead, during runtime, the current application context provides a set of valid commands, together with their syntax. This way, the client remains simple while application takes care of specific functionality regarding the context.
 
 When the example session starts, user interface (UI) shows:
 
