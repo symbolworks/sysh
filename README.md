@@ -120,4 +120,4 @@ The example command set is chosen for effective functioning of the example appli
 
 ## Summary
 
-Sysh deliberately trades GUI expressiveness for simplicity. The purpose of this project is to explore how far that trade-off can be taken. GUIs remain the better interface for many applications, but the question is how simple an interface can become while still supporting an interesting class of applications.
+Sysh deliberately trades GUI expressiveness for simplicity of use. The purpose of this project is to explore how far that trade-off can be taken. GUIs remain the better interface for many applications, but the question is how simple an interface can become while still supporting an interesting class of applications.
