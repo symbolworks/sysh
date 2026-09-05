@@ -71,20 +71,11 @@ tasks/new-task>
 We enter `"Go to dentist"`. UI responds:
 
 ```
-08/09/2026, 10:00 - Go to dentist
+Task created.
+    
+    date and time: "08/09/2026, 10:00"
+    description:   "Go to dentist"
 
-Task created. Choose a command:
-
-    next-task
-
-    done
-
-tasks/new-task>
-```
-
-We enter `done`. We're back to the tasks menu:
-
-```
 Tasks. Choose a command:
 
     task-list
