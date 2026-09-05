@@ -4,7 +4,7 @@
 
 ## Motivation
 
-In an attempt to simplify communication between users and applications, we try to reduce graphic user interface (GUI) interaction to symbolic instructions and results. We are exploring an experiment where interaction with a certain class of applications may be significantly simplified in relation to common GUIs built on top of those applications.
+In an attempt to simplify communication between users and applications, we try to reduce graphic user interface (GUI) interaction to dealing with symbolic instructions and results. We are exploring an experiment where interaction with a certain class of applications may be significantly simplified in relation to common GUIs built on top of those applications.
 
 Considering the current context within an application, symbolic instructions may be gradually discovered instead of memorizing the entire application instruction set. Being of symbolic nature, application instructions gain a lot of positive features like simplicity, portability, scriptability, and reproducibility.
 
@@ -14,7 +14,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-We bring an example session in interacting with typical Sysh application. When the example session starts, user interface (UI) shows:
+We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of `tasks`, `notes`, or their commands; these are supplied by the application according to the current context. When the example session starts, user interface (UI) shows:
 
 ```
 Applications. Choose a command:
@@ -49,7 +49,7 @@ We enter `new-task`. UI responds:
 ```
 New task. Date and time:
 
-   <string [DD/MM/YYYY, HH:MM]>
+   <date-time>
    reject
 
 tasks/new-task>
@@ -114,4 +114,4 @@ Applications. Choose a command:
 
 We enter `done`. The session ends.
 
-The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend. Its user interface is by no means perfect, but its functionality has other strengths like simplicity and portability.
+The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend. Sysh frontent deliberately trades GUI expressiveness for simplicity in the first place. The purpose of this project is to explore how far that trade-off can be taken.
