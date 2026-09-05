@@ -82,7 +82,7 @@ Choose a command:
 tasks/new-task>
 ```
 
-We enter `accept`. We're back to the applications menu:
+We enter `accept`. We're back to the tasks menu:
 
 ```
 Tasks. Choose a command:
