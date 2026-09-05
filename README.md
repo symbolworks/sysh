@@ -1,6 +1,6 @@
 # Sysh
 
-**A symbolic shell for simplifying communication between users and applications**
+**A symbolic shell promoting simplicity in communication between users and applications**
 
 ## Motivation
 
