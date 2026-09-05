@@ -14,7 +14,9 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-When the session starts, user interface (UI) shows:
+We bring an example session in interacting with typical Sysh application. The example command set is is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may choose different command sets, as their functionality requires.
+
+When the example session starts, user interface (UI) shows:
 
 ```
 Applications. Choose a command:
