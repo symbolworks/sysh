@@ -69,8 +69,8 @@ tasks/new-task>
 We enter `"Go to dentist"`. UI responds:
 
 ```
-New task. Review:
-    
+New task. Entered data review.
+
     Date and time: "08/09/2026, 10:00"
     Description:   "Go to dentist"
 
@@ -79,7 +79,7 @@ Choose a command:
     accept
     reject
 
-tasks>
+tasks/new-task>
 ```
 
 We enter `accept`. We're back to the applications menu:
