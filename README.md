@@ -4,7 +4,7 @@
 
 ## Motivation
 
-In this attempt, we are exploring an experiment where interaction with a certain class of applications may be significantly simplified in relation to common GUIs built on top of those applications.
+In this attempt, we are exploring an experiment where interaction with a certain class of applications may be potentially simplified in relation to common GUIs built on top of those applications.
 
 Considering the current context within an application, symbolic instructions may be gradually discovered instead of memorizing the entire application instruction set. Being of symbolic nature, the instructions gain a lot of positive features like simplicity, portability, scriptability, and reproducibility.
 
@@ -14,7 +14,7 @@ This reduced user interface platform is not a replacement to usual GUIs because 
 
 ## Example Session
 
-We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of any application commands. Instead, during runtime, the current application context provides a set of valid commands, together with their syntax. That way, the client remains simple while application takes care of specific functionality regarding the context.
+We bring an example session in interacting with typical Sysh application. The client does not contain knowledge of any application commands. Instead, during runtime, the current application context provides a set of valid commands, together with their syntax. That way, the client remains simple while the application takes care of specific functionality regarding the context.
 
 When the example session starts, user interface (UI) shows:
 
@@ -116,7 +116,7 @@ Applications. Choose a command:
 
 We enter `done`. The session ends.
 
-The example command set is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may offer different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this frontend.
+The example command set is chosen for effective functioning of the example application, but it is in no way restricted to shown commands. Thus, different applications may offer different command sets, as their functionality requires. That way, surprisingly capable class of applications may be supported by this client.
 
 ## Summary
 
